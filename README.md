@@ -12,7 +12,7 @@ El programa comienza probando las cantidades de discos indicadas. Para cada cant
 
 Para 5 y 10 discos, el programa muestra todos los movimientos realizados. Para 30 y 64 discos, solamente muestra los primeros 30 movimientos, ya que realizar y mostrar todos los movimientos tomaria demasiado tiempo.
 
-El programa tambien calcula el total de movimientos que se necesitan y mide cuanto tiempo tarda en realizar la prueba. La funcion `convertir_tiempo()` ayuda a mostrar el tiempo en segundos, minutos, horas, dias o anos.
+El programa tambien calcula el total de movimientos que se necesitan y mide cuanto tiempo tarda en realizar la prueba. La funcion `convertir_tiempo()` ayuda a mostrar el tiempo en segundos, minutos, horas, dias o años.
 
 Al final se muestran los resultados de cada prueba.
 
