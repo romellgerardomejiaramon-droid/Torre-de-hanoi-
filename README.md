@@ -1,7 +1,7 @@
-Torre de hanoi
+## Torre de hanoi
 
 Metodos implementados en el programa 
-## Metodos utilizados
+ Metodos utilizados
 
 El programa tiene 3 metodos:
 
