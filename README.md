@@ -20,19 +20,19 @@ Al final se muestran los resultados de cada prueba.
 
 El programa tiene 3 metodos o funciones, y cada uno sirve para realizar una parte diferente del programa.
 
-### 1. `torre_hanoi()`
+ 1. `torre_hanoi()`
 
 Esta funcion es la encargada de mover los discos de una torre a otra. Al principio puede parecer complicado saber en que orden se deben mover, pero la funcion va organizando los movimientos poco a poco hasta llegar al resultado. Para hacerlo utiliza tres torres: una de donde salen los discos, otra que sirve de apoyo y una donde deben quedar al final.
 
 Tambien guarda los movimientos que se van realizando para despues mostrarlos en la pantalla. Cuando se utilizan 30 o 64 discos, el programa solo muestra los primeros 30 movimientos, porque mostrar todos seria demasiado tardado.
 
-### 2. `convertir_tiempo()`
+ 2. `convertir_tiempo()`
 
 Esta funcion sirve para que sea mas facil entender el tiempo que tarda el programa. Como el tiempo se mide primero en segundos, esta funcion lo convierte a minutos, horas, dias o anos cuando es necesario.
 
 Asi, en lugar de ver una cantidad muy grande de segundos, podemos entender mejor cuanto tiempo podria tardar el programa en completar todos los movimientos.
 
-### 3. `main()`
+ 3. `main()`
 
 Esta es la funcion principal, porque desde aqui se organizan las pruebas del programa. Primero se indican las cantidades de discos que se van a probar: 5, 10, 30 y 64.
 
