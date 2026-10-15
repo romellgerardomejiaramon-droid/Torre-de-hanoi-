@@ -16,15 +16,31 @@ El programa tambien calcula el total de movimientos que se necesitan y mide cuan
 
 Al final se muestran los resultados de cada prueba.
 
- Metodos utilizados
+  Metodos utilizados
 
-El programa tiene **3 metodos**:
+El programa tiene 3 metodos o funciones, y cada uno sirve para realizar una parte diferente del programa.
 
-- **torre_hanoi():** Se encarga de hacer los movimientos de los discos entre las torres.
-- **convertir_tiempo():** Sirve para convertir el tiempo de segundos a minutos, horas, dias o años.
-- **main():** Es donde se ejecuta el programa. Aqui se prueban las cantidades de 5, 10, 30 y 64 discos y se muestran los resultados.
+### 1. `torre_hanoi()`
 
-En total, el programa utiliza **3 metodos**.
+Esta funcion es la encargada de mover los discos de una torre a otra. Al principio puede parecer complicado saber en que orden se deben mover, pero la funcion va organizando los movimientos poco a poco hasta llegar al resultado. Para hacerlo utiliza tres torres: una de donde salen los discos, otra que sirve de apoyo y una donde deben quedar al final.
+
+Tambien guarda los movimientos que se van realizando para despues mostrarlos en la pantalla. Cuando se utilizan 30 o 64 discos, el programa solo muestra los primeros 30 movimientos, porque mostrar todos seria demasiado tardado.
+
+### 2. `convertir_tiempo()`
+
+Esta funcion sirve para que sea mas facil entender el tiempo que tarda el programa. Como el tiempo se mide primero en segundos, esta funcion lo convierte a minutos, horas, dias o anos cuando es necesario.
+
+Asi, en lugar de ver una cantidad muy grande de segundos, podemos entender mejor cuanto tiempo podria tardar el programa en completar todos los movimientos.
+
+### 3. `main()`
+
+Esta es la funcion principal, porque desde aqui se organizan las pruebas del programa. Primero se indican las cantidades de discos que se van a probar: 5, 10, 30 y 64.
+
+Despues, el programa calcula cuantos movimientos se necesitan y utiliza la funcion `torre_hanoi()` para obtener los movimientos que se mostraran. Tambien mide el tiempo que tarda cada prueba y presenta los resultados en la pantalla.
+
+Al final, muestra el tiempo total de las pruebas y permite comparar lo que sucede cuando se aumenta la cantidad de discos.
+
+En general, al revisar estas tres funciones, entendi que cada una tiene una tarea diferente y que juntas permiten resolver el problema, mostrar los movimientos y conocer el tiempo que puede tomar.
 
  Resultados de las pruebas
 
