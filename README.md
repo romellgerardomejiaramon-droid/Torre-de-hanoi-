@@ -21,7 +21,7 @@ Al final se muestran los resultados de cada prueba.
 El programa tiene **3 metodos**:
 
 - **torre_hanoi():** Se encarga de hacer los movimientos de los discos entre las torres.
-- **convertir_tiempo():** Sirve para convertir el tiempo de segundos a minutos, horas, dias o anos.
+- **convertir_tiempo():** Sirve para convertir el tiempo de segundos a minutos, horas, dias o años.
 - **main():** Es donde se ejecuta el programa. Aqui se prueban las cantidades de 5, 10, 30 y 64 discos y se muestran los resultados.
 
 En total, el programa utiliza **3 metodos**.
